@@ -22,3 +22,11 @@ rev = "v1.10.0"
 hooks = [
     { id = "mypy" }
 ]
+
+[[repos]]
+repo = "https://github.com/commitizen-tools/commitizen"
+rev = "v4.13.9"
+hooks = [
+    { id = "commitizen" },
+    { id = "commitizen-branch" },
+]
